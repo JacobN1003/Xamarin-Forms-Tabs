@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:App3tabbed"
+            x:Class="App3tabbed.MainPage">
+
+    <local:Celery Title="Celery" IconImageSource="celery.jpeg"/>
+    <local:Tomato Title="Tomatoes" IconImageSource="tomato.jpeg"/>
+    <local:Onion Title="Onions" IconImageSource="onion.png"/>
+    
+</TabbedPage>
+
