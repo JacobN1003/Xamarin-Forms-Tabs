@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="App3tabbed.Celery"
-             IconImageSource="dining.png">
+             
+             IconImageSource="celery.png">
 
     <ContentPage.Content>
         <StackLayout Padding="20">
@@ -14,7 +15,7 @@
                    FontSize="20"
                    HorizontalOptions="Center"/>
 
-            <Image Source="https://chicagohealthonline.com/wp-content/uploads/2019/12/celery-3410302_1280-1170x570.png" 
+            <Image Source="MAINCELERY.jpeg" 
                     VerticalOptions="CenterAndExpand"
                    HorizontalOptions="Center"
                    />

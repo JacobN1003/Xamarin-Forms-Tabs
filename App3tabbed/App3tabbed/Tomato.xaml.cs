@@ -12,6 +12,13 @@ namespace App3tabbed
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Tomato : ContentPage
     {
+
+        public Tomato()
+        {
+            InitializeComponent();
+        }
+
+        //hardcoded facts 
         public string[] Facts = {
             "Tomatoes originally came from Peru, where their Aztec name translated to plump thing with a navel",
             "Tomatoes increase in weight as they ripen, even after harvesting.",
@@ -20,17 +27,21 @@ namespace App3tabbed
             "A tomato is a fruit. The confusion arose after the 1890s when the US supreme court named them a vegetable for taxation purposes.",
             "There is no mention of tomatoes in either the bible or in the complete works of shakespeare."
             };
-        public Random random = new Random();
-
-        public Tomato()
-        {
-            InitializeComponent();
-        }
+        public Random random = new Random();//random number initialization       
 
         void TomatoClick(object Sender, EventArgs e)
         {
+            tomatoLabel.Text = Facts[random.Next(6)];//generate a new random fact 
+        }
 
-            tomatoLabel.Text = Facts[random.Next(6)];
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            tomatoLabel.Text = "click the button for a random fun fact";
+        }
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
 
         }
     }

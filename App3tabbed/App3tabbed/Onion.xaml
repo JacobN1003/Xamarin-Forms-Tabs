@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             IconImageSource="onion.png"
              x:Class="App3tabbed.Onion">
     <ContentPage.Content>
         <StackLayout Padding="30">
@@ -12,7 +13,7 @@
                    FontSize="20"
                    HorizontalOptions="Center"/>
 
-            <Image Source="https://static.toiimg.com/photo/72185391.cms"
+            <Image Source="ONIONS.cms"
                     VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"/>
             <Button

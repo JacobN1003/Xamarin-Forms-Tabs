@@ -4,9 +4,9 @@
             xmlns:local="clr-namespace:App3tabbed"
             x:Class="App3tabbed.MainPage">
 
-    <local:Celery Title="Celery" IconImageSource="celery.jpeg"/>
-    <local:Tomato Title="Tomatoes" IconImageSource="tomato.jpeg"/>
-    <local:Onion Title="Onions" IconImageSource="onion.png"/>
+    <local:Celery Title="Celery" />
+    <local:Tomato Title="Tomatoes" />
+    <local:Onion Title="Onions" />
     
 </TabbedPage>
 

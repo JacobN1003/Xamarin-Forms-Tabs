@@ -4,16 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             IconImageSource="tomato.png"
              x:Class="App3tabbed.Tomato">
     <ContentPage.Content>
         <StackLayout Padding="30">
 
-            <Label x:Name="tomatoLabel"
-                   Text="click the button for a random fun fact"
+            <Label x:Name="tomatoLabel"                  
                    FontSize="20"
                    HorizontalOptions="Center"/>
 
-            <Image Source="https://ichef.bbci.co.uk/wwfeatures/live/976_549/images/live/p0/4w/46/p04w46sp.jpg" 
+            <Image Source="TOMATOES.jpg" 
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"/>
             <Button

@@ -1,22 +1,31 @@
 ﻿<Properties StartupConfiguration="{58C84355-A2A6-4005-8518-9DA49AC9618E}|Default">
   <MonoDevelop.Ide.ItemProperties.App3tabbed.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="App3tabbed/App3tabbed/Celery.xaml.cs">
     <Files>
-      <File FileName="App3tabbed/App3tabbed/MainPage.xaml" Line="7" Column="62" />
-      <File FileName="App3tabbed/App3tabbed/App.xaml" Line="1" Column="1" />
+      <File FileName="App3tabbed/App3tabbed/MainPage.xaml" Line="7" Column="36" />
+      <File FileName="App3tabbed/App3tabbed/Celery.xaml.cs" Line="39" Column="72" />
+      <File FileName="App3tabbed/App3tabbed/Onion.xaml.cs" Line="41" Column="32" />
+      <File FileName="App3tabbed/App3tabbed/Onion.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="App3tabbed" expanded="True">
             <Node name="App3tabbed" expanded="True">
-              <Node name="AssemblyInfo.cs" selected="True" />
+              <Node name="Celery.xaml" expanded="True">
+                <Node name="Celery.xaml.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Onion.xaml" expanded="True" />
+              <Node name="Tomato.xaml" expanded="True" />
+            </Node>
+            <Node name="App3tabbed.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

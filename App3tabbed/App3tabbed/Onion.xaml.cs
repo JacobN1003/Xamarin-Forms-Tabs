@@ -12,6 +12,13 @@ namespace App3tabbed
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Onion : ContentPage
     {
+
+        public Onion()
+        {
+            InitializeComponent();
+        }
+
+        //hardcoded facts 
         public string[] Facts = {
            "One average sized onion has 30 calories.",
            "The largest onion ever grown weighed around 5kg.",
@@ -20,17 +27,23 @@ namespace App3tabbed
            "You can get rid of onion breath by eating fresh parsley.",
            "Consumption of onions in the United States rose 50% in the last 20 years. Currently, average American eats 8.5 kg of fresh onions each year."
             };
-        public Random random = new Random();
+        public Random random = new Random();//random number initialization
 
-        public Onion()
-        {
-            InitializeComponent();
-        }
+        
 
         void OnionClick(object Sender, EventArgs e)
         {
+            onionLabel.Text = Facts[random.Next(6)];//generate a new random fact 
+        }
 
-            onionLabel.Text = Facts[random.Next(6)];
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+        }
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
 
         }
     }
