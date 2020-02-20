@@ -26,6 +26,7 @@ namespace App3tabbed
             "Celery produces creamy-white flowers that are arranged in the terminal inflorescence known as umbels",
             "Celery is low-energy vegetable. Due to low level of calories, celery is suitable for diets. Celery contains certain amounts of vitamins C, K, B2 and dietary fibers.",
             "Celery was initially used as medicine in treatment of toothache, insomnia, hypertension, anxiety, arthritis, rheumatism and to purify the blood."};
+
         public Random random = new Random();//random number initialization
 
         void CeleryClick(object Sender, EventArgs e)

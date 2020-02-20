@@ -29,3 +29,4 @@
 /Users/jacobn/Projects/hw3_tabbed/App3tabbed/App3tabbed/obj/Debug/netstandard2.0/App3tabbed.dll
 /Users/jacobn/Projects/hw3_tabbed/App3tabbed/App3tabbed/obj/Debug/netstandard2.0/ref/App3tabbed.dll
 /Users/jacobn/Projects/hw3_tabbed/App3tabbed/App3tabbed/obj/Debug/netstandard2.0/App3tabbed.pdb
+/Users/jacobn/Projects/hw3_tabbed/App3tabbed/App3tabbed/obj/Debug/netstandard2.0/Carrots.xaml.g.cs
