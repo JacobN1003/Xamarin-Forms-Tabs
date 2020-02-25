@@ -38,7 +38,7 @@ namespace App3tabbed
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-
+            carrotLabel.Text = "click the button for a random fun fact";
         }
     }
 }

@@ -44,7 +44,7 @@ namespace App3tabbed
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-
+            onionLabel.Text = "click the button for a random fun fact";
         }
     }
 }

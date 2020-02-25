@@ -42,7 +42,7 @@ namespace App3tabbed
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-
+            tomatoLabel.Text = "click the button for a random fun fact";
         }
     }
 }
